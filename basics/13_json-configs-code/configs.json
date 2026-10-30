@@ -1,0 +1,5 @@
+{
+  "operation": "cube",
+  "limit": 30,
+  "allow_negatives": true
+}
