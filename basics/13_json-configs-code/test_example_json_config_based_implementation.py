@@ -1,5 +1,3 @@
-# first of all from what i see, and searched with ai, it is better if i change my code to be a whole def so that we can isolate the list and json reading part from the processing part.
-
 from json_config_based_implementation import config_imp
 
 tests = [
@@ -62,7 +60,6 @@ tests = [
 
 for test in tests:
     actual_copy, actual_inplace = config_imp(test["input"].copy(), test["config"])
-    # config_imp returns 2 outputs, copy is the one in which i create new list, and inplace is for the for loop function.
     assert actual_copy == test["expected"], (
         f'{test["name"]}: list comprehension failed'
     )

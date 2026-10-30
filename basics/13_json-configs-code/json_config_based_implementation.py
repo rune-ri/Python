@@ -45,3 +45,8 @@ if __name__ == "__main__":
     
     print(config_imp(li,data))
 
+# i have found the way to run code without worrying about dependencies.
+# 1. put everything in def. when running, it would only run when method is called.
+# 2. call the first of those functions, only at the end. now code freely while placing things everywhere, and then when
+#   you run the file, the main() function is called at the end, so all things have already been noticed by python. 
+#   this makes it so i dont have to worry about anything.
