@@ -210,3 +210,6 @@ __marimo__/
 
 # macOS Finder
 .DS_Store
+
+# java files.
+.class
