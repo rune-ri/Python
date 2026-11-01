@@ -1,69 +1,47 @@
 # Python
-Python application in Finance. Project Duration: Undecided.
+
+A general Python development repository focused on learning, experimentation, problem-solving, and continuous development.
+
+This repository contains small programs, coding exercises, experiments, implementations, and tests covering different areas of Python and software development.
+
+The objective is to explore different approaches, understand underlying concepts, improve programming practices, and expand practical knowledge through continuous coding.
 
 ---
 
-## Beginner Projects (1–15)
+## Areas of Development
 
-1. **Currency Converter (static rates)**
-2. **Simple Tax Calculator**
-3. **Basic Budget Tracker (CLI)**
-4. **Tip & Bill Split Calculator**
-5. **Loan Payment Calculator (EMI)**
-6. **Compound Interest Calculator**
-7. **Stock Profit/Loss Calculator**
-8. **Savings Goal Estimator**
-9. **Monthly Expense Categorizer**
-10. **Personal Net Worth Calculator**
-11. **Mortgage Affordability Checker**
-12. **Grocery Price Comparator (user-input)**
-13. **Simple Depreciation Calculator (straight-line)**
-14. **ATM Simulation (withdraw/deposit)**
-15. **Basic Financial Quiz Game (multiple choice)**
+- **Fundamentals:** Syntax, data types, control flow, functions, and basic programming concepts.
+- **Data Structures & Algorithms:** Lists, dictionaries, sets, tuples, searching, sorting, and algorithmic problem-solving.
+- **File Handling:** Reading, writing, processing, and managing different file formats.
+- **Data Processing:** Working with structured data, transformations, parsing, and validation.
+- **Object-Oriented Programming:** Classes, objects, inheritance, encapsulation, and abstraction.
+- **Modular Programming:** Modules, packages, imports, and code organisation.
+- **Configuration & Serialization:** JSON, configuration files, data representation, and serialization.
+- **Testing & Verification:** Unit testing, edge cases, input validation, exhaustive testing, and implementation verification.
+- **Algorithms & Optimisation:** Exploring alternative implementations, computational complexity, efficiency, and performance.
+- **Libraries & Frameworks:** Experimenting with external libraries, APIs, and available Python tooling.
+- **Automation & Scripting:** Small utilities, command-line programs, and task automation.
+- **Software Design:** Code structure, reusability, maintainability, and separation of concerns.
 
 ---
 
-## Intermediate Projects (16–35)
+## Development Approach
 
-16. **Budget Tracker with CSV Export**
-17. **Stock Portfolio Manager (local storage)**
-18. **Historical Stock Price Plotter (using yfinance)**
-19. **Cryptocurrency Price Monitor (API)**
-20. **Expense Tracker with Categories & Monthly Reports**
-21. **Invoice Generator (PDF)**
-22. **Bank Account Class Simulation (OOP)**
-23. **Simple Trading Journal App**
-24. **Investment Portfolio Rebalancing Calculator**
-25. **Retirement Calculator (with multiple scenarios)**
-26. **Financial Ratios Calculator (P/E, EPS, ROE)**
-27. **Credit Card Payoff Calculator (visualized)**
-28. **Stock Screener (filters: price, volume, etc.)**
-29. **Budget Visualization Dashboard (matplotlib/plotly)**
-30. **Currency Converter with Live API Rates**
-31. **Random Walk Stock Price Simulator**
-32. **Monte Carlo Simulation for Savings Growth**
-33. **Bond Pricing Calculator (yield, duration)**
-34. **Dividend Tracker with Upcoming Payout Alerts**
-35. **Rental Property ROI Calculator**
+The repository follows an exploratory and incremental approach:
+
+1. **Experiment:** Explore concepts through small, independent implementations.
+2. **Understand:** Examine how different language features and programming techniques work.
+3. **Implement:** Develop solutions using different approaches and structures.
+4. **Test:** Verify behaviour through test cases, edge cases, and alternative inputs.
+5. **Evaluate:** Compare implementations in terms of correctness, readability, efficiency, and complexity.
+6. **Expand:** Build upon existing knowledge and experiments to explore more advanced concepts.
 
 ---
 
-## Advanced Projects (36–50)
+## Repository Scope
 
-36. **Automated Expense Classifier (ML)**
-37. **Stock Market Prediction Model (ML regression)**
-38. **Credit Score Predictor (ML classification)**
-39. **Portfolio Optimization using Modern Portfolio Theory (Markowitz)**
-40. **Crypto Trading Bot (paper-trading only!)**
-41. **Algorithmic Trading Backtester**
-42. **Risk Management Dashboard (VaR, CVaR)**
-43. **Financial News Sentiment Analyzer (NLP)**
-44. **Options Pricing Calculator (Black-Scholes)**
-45. **Fraud Detection System (ML anomaly detection)**
-46. **Portfolio Tracker Web App (Flask/FastAPI)**
-47. **Real-Time Finance Alerts via Email/SMS**
-48. **ETF Sector Exposure Analyzer**
-49. **Crowdfunding Investment Analyzer**
-50. **End-to-End Wealth App (budgeting + investing + analytics)**
+The repository is not restricted to a particular application, domain, or predefined project roadmap.
 
----
+Implementations may range from simple exercises and isolated experiments to more elaborate programs and independent applications.
+
+The structure and scope will evolve organically as new concepts, ideas, and areas of interest are explored.
