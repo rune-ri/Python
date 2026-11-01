@@ -16,7 +16,7 @@ import java.io.OutputStream;
 
 public class Server{
   public static void main(String[] args) throws Exception{
-    HttpServer server = HttpServer.create(new InetSocketAddress(127.0.0.1, 5001), 0);
+    HttpServer server = HttpServer.create(new InetSocketAddress("127.0.0.1", 5001), 0);
     // i need to know what 0 is over there, i know about inet socket address, but i dont know what 0 mreans.
 
     // this is gonna be really confusing.
