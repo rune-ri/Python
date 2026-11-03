@@ -19,6 +19,9 @@ def process_transaction(transactions):
         # the order of replace is important coz otherwise everyting would go to ""
         transaction["Resulting balance"] = Decimal(transaction["Resulting balance"].replace(".", "").replace(",", "."))
 
+        # Convert Debit/Credit into Boolean
+        transaction["is_income"] = transaction["Debit/credit"] == "Credit"
+
         # just add to the list.
         processed.append(transaction)
 

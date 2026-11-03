@@ -1,0 +1,35 @@
+{
+    "counterparties": {
+        "Family": [],
+        "Job": [],
+        "University": []
+    },
+    "categories": {
+        "Income": {
+            "Job": [
+                "salary",
+                "employer"
+            ],
+            "Family": [
+                "parents",
+                "family transfer"
+            ]
+        },
+        "Outgoing": {
+            "Groceries": [
+                "albert heijn",
+                "jumbo",
+                "lidl"
+            ],
+            "Subscriptions": [
+                "spotify",
+                "netflix"
+            ],
+            "Transport": [
+                "ns",
+                "ov-chipkaart"
+            ],
+            "Other": []
+        }
+    }
+}
