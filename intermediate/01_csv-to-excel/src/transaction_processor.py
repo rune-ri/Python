@@ -1,5 +1,7 @@
 from datetime import datetime
 from decimal import Decimal
+# we use decimal because it allows there to be no floating point errors
+# for financila data, this distinction is crucial since money is being compared and handled.
 
 def process_transaction(transactions):
     processed = []
@@ -15,7 +17,7 @@ def process_transaction(transactions):
         
         transaction["Amount (EUR)"] = Decimal(transaction["Amount (EUR)"].replace(".", "").replace(",", "."))
         # the order of replace is important coz otherwise everyting would go to ""
-        transaction["Resulting Balance"] = Decimal(transaction["Resulting Balance"].replace(".", "").replace(",", "."))
+        transaction["Resulting balance"] = Decimal(transaction["Resulting balance"].replace(".", "").replace(",", "."))
 
         # just add to the list.
         processed.append(transaction)
