@@ -1,0 +1,16 @@
+# Personal categorisation configuration
+config/categories.json
+
+# Input: ignore everything except .gitkeep
+input/*
+!input/.gitkeep
+
+# Output: ignore everything except .gitkeep
+output/*
+!output/.gitkeep
+
+# Thoughts: keep directory structure, ignore contents except .gitkeep
+thoughts/*
+!thoughts/.gitkeep
+
+
