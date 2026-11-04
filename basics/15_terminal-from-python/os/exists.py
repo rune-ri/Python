@@ -13,12 +13,14 @@ if os.path.exists(to_check):
     print("It exists")
 else:
     print("It doesnt exist")
+# used to check if a file name is already taken.
 
 # another way is to check if only file eixsts
 if os.path.isfile(to_check):
     print("It exists")
 else: 
     print("It doesnt exist")
+# used to check if a file exists so that it may be opened using open()
 
 # final method is a complicated way i found
 contents = os.listdir()
@@ -28,3 +30,7 @@ def exists(contents):
             return "It exists"
     return "It doesnt exist"
 print(exists(contents))
+# apparently it could have been easier with:
+# for to_check in contents:
+#   print("It exists")
+# the thing was that hte `in` command is useful
